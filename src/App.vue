@@ -141,7 +141,7 @@ const handleLinePositionChange = (newPosition) => {
   <main class="container">
     <VerticalLine
       :initial-position="linePosition"
-      color="#ff0000"
+      color="#0096FF"
       :width="3"
       @position-change="handleLinePositionChange"
     />
